@@ -1,0 +1,62 @@
+pencerenin kapanmaması için pause yazmanız gerekmektedir.
+net user %username% ŞİFRE
+Şifre yazan yere yazacağınız yer,program açıldığı an bilgisayarın yeni şifresi olur
+
+echo
+echo yazdırılmak istenen şey: echo yazı yazdırır yani ekrana (yandaki komuta göre yazdırılmak istenen şey yazar)
+echo aa
+yazarsanız echo aa yazar
+
+rd komutu içi boş klasör silmeye yarar rd klasöradı
+
+echo off
+@echo off girilen komutların açılan CMD penceresinde gizlenmesini sağlar
+
+Bu komut başa yazılmalıdır.
+
+@echo
+@echo komutu echo ile aynıdır fakat echo yerine @echo’yu kullanırsanız yazdırdığınız şeyin başındaki echo gözükmez.
+
+
+del dosya silme komutudur mesela del C:/A
+c: de olan A dosyasını siler
+
+
+md dizin oluşturur linuxtaki mkdir ile aynı
+mkdir a
+yazarsanız a adında klasör oluşur
+
+start program açar mesela start calc.exe yazarsanız hesap makinesini açar.Sadece start yazarsanız cmdyi açar
+
+
+cls ekranı temizler
+
+pause = cmdnin ekranda kalmasını sağlar mesela echo yaptıktan sonra bunu yapmazsan cmd açılıp kapanır yaparsan bir tuşa basınız... diye şey çıkar
+
+GOTO Komutu:
+Bir batch dosyada bir noktadan bir başka noktaya (etikete) dallandırılmayı sağlar. Etiket isminden önce (:) işareti kullanılır.
+Örnek:
+Goto bitir
+..
+
+..
+:bitir
+ECHO Program sonlandırıldı.
+
+
+Çok Kullanılan Xcopy Parametreleri
+/S, tüm alt dizinleri kopyalamak için
+/H, gizli dosyaları da kopyalamak için gerekli
+/E, içi boş olan dizinleri de kopyalamak için gerekli
+/Y, aynı kopyalama işlemi bir daha yapıldığında üzerine “yazılsın mı?” sorusuna “tümüne evet” yanıtını verir.
+
+
+Ren (Rename)
+
+Bulundugumuz yada belirttigimiz konumdaki dosya veya dizin adini degistirmek için kullanilir.
+
+ren <dosya - dizin adi><yeni dosya - dizin adi>
+
+@echo off
+echo Bu kısma Yazınızı Yazınız  %userprofile%\Desktop\"Kaydedilecek Dosya Adi".txt
+exit
